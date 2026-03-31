@@ -1,0 +1,15 @@
+# IntelliJ
+.idea/
+
+# Maven build output
+target/
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# MySQL (VERY IMPORTANT)
+inventory-service/mysql/
+*.sock
