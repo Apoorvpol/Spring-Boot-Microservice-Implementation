@@ -3,6 +3,5 @@ target/
 *.log
 .env
 
-# MySQL
-inventory-service/mysql/mysql.sock
+inventory-service/mysql/
 *.sock
