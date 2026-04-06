@@ -3,6 +3,7 @@
 ## 📌 Overview
 
 This project demonstrates a **basic microservices architecture** implemented using **Java Spring Boot**. The goal of this project is to showcase how independent services communicate, scale, and interact using both **synchronous (REST)** and **asynchronous (Kafka)** communication patterns.
+
 It is designed as a **learning-oriented implementation** to understand core microservices concepts such as API Gateway, service communication, resilience, and distributed systems fundamentals.
 
 ---
@@ -43,18 +44,22 @@ The system consists of multiple loosely coupled services connected through an **
 
 ## ⚙️ Tech Stack
 
-* Backend: Java, Spring Boot
-* Microservices Framework:Spring Cloud
-* API Gateway: Spring Cloud Gateway
-* Service Discovery: Eureka
-* Database: MongoDB (Product Service)
-            MySQL (Order & Inventory Services)
-* Messaging: Apache Kafka
-* Resilience: Resilience4j (Circuit Breaker)
-* Security: OAuth / Auth Server
-* Configuration: Spring Cloud Config Server
-* Monitoring & Logging: Zipkin (Distributed Tracing)
-                        ELK Stack (Elasticsearch, Logstash, Kibana)
+* **Backend:** Java, Spring Boot
+* **Microservices Framework:** Spring Cloud
+* **API Gateway:** Spring Cloud Gateway
+* **Service Discovery:** Eureka
+* **Database:**
+
+  * MongoDB (Product Service)
+  * MySQL (Order & Inventory Services)
+* **Messaging:** Apache Kafka
+* **Resilience:** Resilience4j (Circuit Breaker)
+* **Security:** OAuth / Auth Server
+* **Configuration:** Spring Cloud Config Server
+* **Monitoring & Logging:**
+
+  * Zipkin (Distributed Tracing)
+  * ELK Stack (Elasticsearch, Logstash, Kibana)
 
 ---
 
@@ -164,4 +169,3 @@ This project is **not production-ready**. It is designed for:
 Apoorv Pol
 
 ---
-
