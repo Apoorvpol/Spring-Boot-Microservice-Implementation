@@ -1,7 +1,7 @@
 # Spring Boot Microservices Implementation
 
 ## 📌 Overview
-
+![Microservices Architecture](docs/Architecture.png)
 This project demonstrates a **basic microservices architecture** implemented using **Java Spring Boot**. The goal of this project is to showcase how independent services communicate, scale, and interact using both **synchronous (REST)** and **asynchronous (Kafka)** communication patterns.
 
 It is designed as a **learning-oriented implementation** to understand core microservices concepts such as API Gateway, service communication, resilience, and distributed systems fundamentals.
