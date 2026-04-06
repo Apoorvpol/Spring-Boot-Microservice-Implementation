@@ -1,0 +1,23 @@
+FROM eclipse-temurin:21-jdk AS builder
+
+WORKDIR /app
+
+# Copy jar
+COPY target/*.jar app.jar
+
+# Extract layers using Spring Boot layertools
+RUN java -Djarmode=layertools -jar app.jar extract
+
+# -------- Stage 2: Runtime image --------
+FROM eclipse-temurin:21-jdk
+
+WORKDIR /app
+
+# Copy layers separately (this is the key optimization)
+COPY --from=builder app/dependencies/ ./
+COPY --from=builder app/spring-boot-loader/ ./
+COPY --from=builder app/snapshot-dependencies/ ./
+COPY --from=builder app/application/ ./
+EXPOSE 8080
+# Run application
+ENTRYPOINT ["java", "org.springframework.boot.loader.JarLauncher"]
