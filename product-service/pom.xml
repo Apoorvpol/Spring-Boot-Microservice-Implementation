@@ -7,10 +7,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
+<<<<<<< HEAD
 		<groupId>com.example</groupId>
 		<artifactId>microservices-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
+=======
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.5</version>
+		<relativePath/>
+>>>>>>> 896dae3babccd8c5a2fe3fcfac0c83b210b7d3ea
 	</parent>
 
 	<groupId>com.example</groupId>
@@ -58,6 +65,7 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
@@ -69,6 +77,8 @@
 			<scope>runtime</scope>
 		</dependency>
 
+=======
+>>>>>>> 896dae3babccd8c5a2fe3fcfac0c83b210b7d3ea
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>

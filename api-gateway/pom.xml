@@ -4,6 +4,7 @@
          https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
 <!--    <build>-->
 <!--        <plugins>-->
 <!--            <plugin>-->
@@ -47,6 +48,13 @@
         <artifactId>microservices-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
+=======
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.5</version>
+>>>>>>> 896dae3babccd8c5a2fe3fcfac0c83b210b7d3ea
     </parent>
 
     <groupId>com.example</groupId>
@@ -108,12 +116,15 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
+<<<<<<< HEAD
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-prometheus</artifactId>
             <scope>runtime</scope>
         </dependency>
 
+=======
+>>>>>>> 896dae3babccd8c5a2fe3fcfac0c83b210b7d3ea
     </dependencies>
 
     <dependencyManagement>

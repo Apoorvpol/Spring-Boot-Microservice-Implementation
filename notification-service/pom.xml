@@ -8,6 +8,7 @@
 
     <!-- Spring Boot Parent -->
     <parent>
+<<<<<<< HEAD
         <groupId>com.example</groupId>
         <artifactId>microservices-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
@@ -16,6 +17,16 @@
 
     <groupId>com.example</groupId>
     <artifactId>notification-service</artifactId>
+=======
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.5</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.example</groupId>
+    <artifactId>kafka-demo</artifactId>
+>>>>>>> 896dae3babccd8c5a2fe3fcfac0c83b210b7d3ea
     <version>0.0.1-SNAPSHOT</version>
     <name>kafka-demo</name>
 
@@ -78,12 +89,15 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-loadbalancer</artifactId>
         </dependency>
+<<<<<<< HEAD
 
         <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-prometheus</artifactId>
             <scope>runtime</scope>
         </dependency>
+=======
+>>>>>>> 896dae3babccd8c5a2fe3fcfac0c83b210b7d3ea
     </dependencies>
 
     <!-- ✅ Spring Cloud BOM -->

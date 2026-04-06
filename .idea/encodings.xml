@@ -10,9 +10,12 @@
     <file url="file://$PROJECT_DIR$/notification-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/product-service/src/main/java" charset="UTF-8" />
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/prometheus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/prometheus/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+=======
+>>>>>>> 896dae3babccd8c5a2fe3fcfac0c83b210b7d3ea
   </component>
 </project>

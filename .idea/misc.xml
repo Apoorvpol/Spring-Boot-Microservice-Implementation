@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/discovery-server/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/notification-service/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/prometheus/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
@@ -19,6 +20,10 @@
         <option value="$PROJECT_DIR$/prometheus/pom.xml" />
       </set>
     </option>
+=======
+      </list>
+    </option>
+>>>>>>> 896dae3babccd8c5a2fe3fcfac0c83b210b7d3ea
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
